@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pasupuleti Chandana</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <!-- Static navbar -->
+  <div class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+
+  <!-- +++++ Contact Section +++++ -->
+
+  <div class="container pt" style="background-color: #9dad7f;">
+    <div class="row ">
+      <div class="col-lg-6 col-lg-offset-3 centered">
+        <h3 style="color: #ffffff;">CONTACT ME</h3>
+      </div>
+    </div>
+    <div class="row mt">
+      <div class="col-lg-8 col-lg-offset-2">
+        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+            <div class="form-send">
+              <button style="color: #557174; background-color: #c7cfb7;" type="submit" class="btn btn-large">submit</button>
+            </div>
+
+          </form>
+      </div>
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+
+  <!-- +++++ Footer Section +++++ -->
+
+  <div id="footer" style="padding-top: 20px; padding-bottom: 20px;">
+    <div  class="container ">
+      
+        <div class="centered">
+          <a style="margin-right: 6px;" href="https://github.com/P-Chandana"><i class="fab fa-github fa-2x"> </i></a>
+          <a href="https://www.linkedin.com/in/pasupuleti-chandana-20a180173/"><i class="fab fa-linkedin fa-2x"></i></a>
+
+        </div>
+
+      
+    </div>
+  </div>
+
+    <div id="copyrights">
+      <div class="container">
+        <p>
+          Copyrights &copy; 2020 <strong>Pasupuleti Chandana</strong>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+  <!-- / copyrights -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
